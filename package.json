@@ -1,0 +1,15 @@
+{
+  "name": "lambda-steam-review-fetcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zimberzimber",
+  "license": "The Unlicense",
+  "description": "An AWS Lambda Function designed to fetch new or updated Steam reviews.",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "@aws-sdk/client-ssm": "^3.759.0"
+  }
+}
